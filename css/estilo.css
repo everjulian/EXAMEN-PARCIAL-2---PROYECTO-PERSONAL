@@ -1,0 +1,522 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #90f1fc;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #24eeeb, #3661d8, #368add, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #24eecc, #369ad8, #36b1dd, #45b4ad);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+.text-muted {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.estilo{
+    width: 200%;
+    height: 650px;
+   
+}
+
+
+/* Inicio */
+.color_fondo{
+    background-color: #63e6f7;
+}
+
+/* Estilo navegacion */
+
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generale */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Distressed', cursive;
+    font-family: 'Syne Mono', monospace;
+
+}
+
+.seccion-oscura{
+    color:white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.btn-info{
+    font-size: 1.4rem;
+    margin: 20px;
+    font-weight: bold;
+}
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+
+/* seccion heroe */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color:rgb(8, 4, 4);
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family:'Rubik Distressed', cursive;
+}
+.seccion-titulo-sobre-mi{
+    color: white;
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family:'Rubik Distressed', cursive;
+    
+}
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color:rgb(48, 40, 40)
+
+}
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.hero-imagen{
+    width: 2000px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 95px;
+    margin-bottom: 20px;
+
+ 
+}
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Experiencia */
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+.experiencia i{
+    font-size: 2.5rem;
+    color:white;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+/* .experiencia .row div {
+    height: 390px;
+} */
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid  #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+.badges{
+    margin: 25px;
+}
+
+/* Proyectos */
+
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7%;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease ;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 25px;
+    max-width: bold;
+    margin-bottom: 0;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.overlay .iconos-contenedor{
+    display: flex;
+}
+
+.overlay i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+/* Articulos */
+
+.articulos{
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header{
+    font-weight: bold;
+}
+
+/* testimonios */
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel{
+    max-width: 800px;
+}
+
+
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-imagen{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Share Tech Mono', monospace;;
+}
+.testimonio-info{
+    font-weight: bold;
+    text-align: center;
+
+}
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-info .cliente{
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: grey;
+}
+
+
+/* Contactos */
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+  }
+  
+  .contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+  }
+  
+  .contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover i {
+    color: black;
+}
+
+
+/* * Pie de pagina (footer) */ */
+
+footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+
+/* Adptabale responsivo */
+@media screen and (max-width:767px){
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p{
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .testimonio-imagen{
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto {
+        font-size: 18px;
+    }
+}
+
+
+/* Otros estilos tecnologias */
+
+.titulo_h2{
+    margin-bottom: 85px;
+    margin-top: 85px;
+}
+
+
+
+/* Grow */
+
+.section{
+    background: var(--very-pale-blue);  
+    text-align: center;
+}
+
+.section__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+.section__figure{
+    margin: 0 auto;
+}
+
+.section__img{
+    width: 100%;
+    margin-bottom:40px ;
+    margin-top: 170px;
+}
+
+
+.subtitle{
+    font-size: 1.5rem;
+    font-family: var(--font-poppins);
+}
+
+.section__texts{
+    text-align: left;
+}
+
+.section__paragraph{
+    color: var(--very-dark-cyan);
+}
+
+
+
+
